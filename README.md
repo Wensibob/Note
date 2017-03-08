@@ -252,7 +252,7 @@ public abstract class HidingScrollListener extends RecyclerView.OnScrollListener
 android:clipToPadding="false"
 android:paddingTop="?attr/actionBarSize"
 ```
-![bug截图](http://www.wensibo.top/file/img/2017-3-8Note/2.png)    
+![bug截图](/screenshot/2.png)    
 完整的布局代码如下：   
 * main_activity.xml
 
