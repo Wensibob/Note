@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        app:theme="@style/toolBar"
+        android:id="@+id/toolbar_note_content"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:textColor="@android:color/white"
+        app:titleTextColor="@android:color/white"
+        app:title="  "
+        />
+
+    <ScrollView
+        android:id="@+id/scrollview_note_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_note_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:singleLine="false"
+            android:inputType="textMultiLine"
+            android:maxLines="26"
+            android:scrollbars="vertical"
+            android:background="@null"
+            />
+
+    </ScrollView>
+
+
+</LinearLayout>

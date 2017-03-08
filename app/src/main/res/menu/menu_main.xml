@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".NoteContentActivity">
+
+    <item android:id="@+id/action_star"
+          android:title="@string/action_star"
+          android:orderInCategory="80"
+          android:checkable="true"
+          app:showAsAction="ifRoom"
+        />
+          <!--android:icon="@drawable/star"-->
+
+    <item android:id="@+id/action_save"
+          android:title="@string/action_save"
+          android:orderInCategory="90"
+          android:icon="@android:drawable/ic_menu_save"
+          app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">小便签</string>
+    <string name="note_text">Note</string>
+    <string name="action_save">保存</string>
+    <string name="action_star">标为星</string>
+    <string name="not_empty">内容不能为空</string>
+    <string name="delete">删除</string>
+    <string name="top">置顶</string>
+    <string name="not_important">便签被设置为不标星</string>
+    <string name="important">便签被设置为标星</string>
+</resources>
